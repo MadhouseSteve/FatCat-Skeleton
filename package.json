@@ -1,0 +1,12 @@
+{
+  "name": "test-fatcat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "FatCat": "file:../fatcat"
+  },
+  "scripts": {
+    "dev": "fatcat dev"
+  }
+}
