@@ -4,9 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "FatCat": "file:../fatcat"
+    "fatcat": "file:../fatcat",
+    "graphql": "^15.3.0",
+    "ts-node": "^9.0.0"
   },
   "scripts": {
-    "dev": "fatcat dev"
+    "dev": "node_modules/fatcat/src/cli/main.js dev"
   }
 }
